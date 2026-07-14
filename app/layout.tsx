@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description: 'Get your resume scored by AI in 30 seconds.',
     type: 'website',
   },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
