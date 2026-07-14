@@ -8,7 +8,7 @@
 
 <br/>
 
-[**🌐 ResumeAI Live!**](https://resumeai.vercel.app)
+[**🌐 ResumeAI Live!**](https://resumeai085.vercel.app)
 
 <br/>
 
@@ -108,7 +108,7 @@ cp .env.example .env
 | `STRIPE_PRO_PRICE_ID` | Stripe Dashboard → Products → your Pro plan price ID |
 | `GEMINI_API_KEY` | aistudio.google.com/app/apikey |
 | `GROQ_API_KEY` | console.groq.com/keys |
-| `NEXT_PUBLIC_APP_URL` | Your production URL e.g. https://resumeai.vercel.app |
+| `NEXT_PUBLIC_APP_URL` | Your production URL e.g. https://resumeai085.vercel.app |
 
 ### 4. Set Up Clerk Webhooks
 
