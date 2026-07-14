@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="public/brand/resumeailogo.webp" alt="ResumeAI Logo" width="120" />
+
 <h1>ResumeAI</h1>
 
 **AI Resume & Job Description Analyzer**

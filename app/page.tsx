@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   FileText,
   Zap,
@@ -19,9 +20,7 @@ export default function LandingPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5" style={{ background: 'rgba(5,8,18,0.85)', backdropFilter: 'blur(20px)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-              <Brain className="w-4 h-4 text-white" />
-            </div>
+            <Image src="/brand/resumeailogo.webp" alt="ResumeAI Logo" width={32} height={32} className="rounded-lg" />
             <span className="text-xl font-bold text-white">Resume<span className="gradient-text">AI</span></span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -330,9 +329,7 @@ export default function LandingPage() {
       <footer className="border-t border-white/5 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-md bg-indigo-600 flex items-center justify-center">
-              <Brain className="w-3 h-3 text-white" />
-            </div>
+            <Image src="/brand/resumeailogo.webp" alt="ResumeAI Logo" width={24} height={24} className="rounded-md" />
             <span className="font-bold text-white">Resume<span className="gradient-text">AI</span></span>
           </div>
           <div className="text-gray-500 text-sm">

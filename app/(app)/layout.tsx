@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { UserButton } from '@clerk/nextjs'
 import {
@@ -28,9 +29,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         {/* Logo */}
         <div className="h-16 flex items-center px-6 border-b border-white/5">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center">
-              <Brain className="w-3.5 h-3.5 text-white" />
-            </div>
+            <Image src="/brand/resumeailogo.webp" alt="ResumeAI Logo" width={28} height={28} className="rounded-lg" />
             <span className="font-black text-white">Resume<span className="gradient-text">AI</span></span>
           </Link>
         </div>
