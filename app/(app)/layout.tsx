@@ -29,7 +29,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         {/* Logo */}
         <div className="h-16 flex items-center px-6 border-b border-white/5">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/brand/resumeailogo.webp" alt="ResumeAI Logo" width={28} height={28} className="rounded-lg" />
+            <Image src="/brand/resumeailogo.webp" alt="ResumeAI Logo" width={40} height={40} className="rounded-lg" />
             <span className="font-black text-white">Resume<span className="gradient-text">AI</span></span>
           </Link>
         </div>
